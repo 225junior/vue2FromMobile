@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>V-model</title>
+</head>
+
+<body>
+<div id="app">
+   <h1>{{text}}</h1>
+   <input V-model="text"/>
+</div>
+
+
+   <script src="../res/vue@2.6.12.js"></script>
+   <script>
+      new Vue({
+         el:'#app',
+         data:{
+            text:'ok'
+         }
+      })
+   </script>
+   
+   
+   
+</body>
+</html>
